@@ -13,6 +13,8 @@ Steps to see algorithms
 
 3. Click increment many times to go through the solution step by step **or** Click iterate to view the entire iteration.
 
+4. Refresh the page to start over. 
+
 index.js contains search algorithms, and other backend elements that help display the visualization
 
 style.css contains style elements for buttons, background, etc. 
