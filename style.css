@@ -1,0 +1,83 @@
+/*
+CSS styling for index.html
+*/
+
+root {
+    display: block;
+}
+
+body {
+    text-align:center;
+    background-color: rgb(195, 188, 179);
+}
+
+p {
+    font-family:monospace;
+}
+
+input{
+   padding: 10px 15px;
+   position: relative;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color:linen;
+}
+table {
+    margin:auto;
+}
+#timer{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    
+    text-align:center;
+    font-size:40px;
+}
+
+td:nth-of-type(3n) {    
+    border-right: 3px solid #000;
+    border-right-width: medium;
+    
+}
+
+tr:nth-of-type(3n) td {    
+    border-bottom: 3px solid #000;
+    border-bottom-width: medium;
+}
+
+table {
+    border-left: 3px solid #000;
+    border-top:3px solid #000;;
+    border-width: medium;
+}
+
+select{
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 5px;
+  background-color:linen;
+}
+#incrementButton{
+   
+   position: relative;
+   margin-left:0px;
+   padding: 10px 15px;
+   background-color:linen;
+   }
+#iterateButton{
+   margin-left: 10px;
+   margin-top: -48px;
+   padding: 10px 15px;
+   position: relative;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color:linen;
+}
+
+
