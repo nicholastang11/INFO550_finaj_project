@@ -1,4 +1,4 @@
-# INFO550_finaj_project
+# INFO550_final_project
 ## Nicholas Tang
 
 Run index.html to see the visualization of the algorithms.
