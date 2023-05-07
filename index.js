@@ -576,8 +576,7 @@ function bfs(board){
 
 function backtracking(board){
     /*
-    backtracking with forward checking
-    This algorithm is similar to dfs but uses recursion instead of a frontier
+    This algorithm implements brute force with backtracking using recursion
     */
     if (isLegalSolution(board)){ //base case
             console.log('solution found')
